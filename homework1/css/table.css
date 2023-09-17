@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.content{
+    height:auto;
+    width:60%;
+    margin:10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.title{
+    background: #eef3f9;
+    padding-top:20px;
+    border-bottom: #e9ebef;
+}
+
+.img{
+    width: 44px;
+    align-self:flex-start;
+    padding:0 20px;
+}
+
+.content>div{
+    width:526px;
+    display: flex;
+}
+
+.header{
+    flex: 1;
+    display: flex;
+}
+
+.header span{
+    font:bold 18px/1em "微软雅黑";
+    padding:0 22%;
+}
+
+.after{
+    height:20px;
+    background:white;
+    border-bottom:1px solid #e9ebef;
+}
+
+.content>div img{
+    width:100%;
+}
+
+.content table{
+  /* border: 1px solid black; */
+  background:#eef3f9;
+  border-collapse: collapse;
+  width: 100%;
+  height:530px;
+}
+
+.profile{
+    width:80%;
+    height:80%;
+    
+}
+
+.table-box{
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+
+table td{
+    border: 1px solid #e9ebef;
+    text-align:center;
+    background:white;
+    font-size:12px;
+}
+
+table th{
+    font-size:9px;
+    text-align: left;
+}
+
+.row td:nth-child(1){
+    width: 80px;
+}
+
+.row td:not(:nth-child(1)){
+    width:60px;
+}
+
+[type="date"]{
+    display: inline-block;
+}
+
+.row td:nth-child(7)
+{
+    width:75px;
+}
+
+.row td:nth-child(5) {
+    width: 66px;
+}
+
+.message{
+    display: flex;
+    justify-content:space-around;
+    padding: 10px 0;
+}
+
+.message div{
+    width:48%;
+    font-size:12px;
+}
+
+.promise{
+  font-size:12px;
+}
+
+.content .last-row{
+    font-size:12px;
+    padding:10px 0;
+}
+
+.last-row span:nth-child(1){
+ padding:0 20% 0 50%;
+}
+
+.last-row span:nth-child(2)
+{
+    padding-right:15%;
+}
+
+
+
+
